@@ -1,5 +1,4 @@
 ---
-- hosts: linux
   tasks:
   - name: create file
     file:
