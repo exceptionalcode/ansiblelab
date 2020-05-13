@@ -1,0 +1,11 @@
+---
+- hosts: linux
+  vars:
+    training:
+      topic: ansible
+      trainer: sathish
+      lab: aws
+  tasks:
+  - name: pring dict variable
+    debug:
+      msg: "{{ training }}"

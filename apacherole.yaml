@@ -1,0 +1,5 @@
+---
+- hosts: 3.21.37.50
+  become: yes
+  roles:
+  - apache

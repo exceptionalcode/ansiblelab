@@ -1,0 +1,8 @@
+---
+- hosts: all
+  vars:
+    games: [cricket, football, baseball, trackevents]
+  tasks:
+  - name: print list varaiable
+    debug:
+      msg: "{{ games [0] }}"

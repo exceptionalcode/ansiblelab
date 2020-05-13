@@ -1,0 +1,6 @@
+---
+- hosts: linux
+  tasks:
+  - name: print host varaible
+    debug:
+      msg: " http port no is {{ http_port }}"

@@ -1,0 +1,7 @@
+---
+- hosts: win
+  tasks:
+  - name: stop DNS Client service
+    win_service:
+      name: "Plug and Play"
+      state: started
