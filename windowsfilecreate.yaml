@@ -1,5 +1,5 @@
 ---
-- hosts: win
+- hosts: all
   tasks:
     - name: create directory on windows
       win_file:
