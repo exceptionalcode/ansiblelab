@@ -1,9 +1,9 @@
 ---
-- hosts: linux
+- hosts: all
   tasks:
   - name: upload the file to target server
     copy:
-      src: /root/program.sh
+      src: program.sh
       dest: /home/ansible/program.sh
       mode: 0755
   - name: modify the script
